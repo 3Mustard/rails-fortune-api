@@ -1,5 +1,4 @@
 require 'json'
-path = Rails.root.join('app', 'assets','cards.json')
 
 def createCardsFromJson(path)
     cardsJson = JSON.parse(File.read(path))
@@ -17,4 +16,9 @@ def createCardsFromJson(path)
     end
 end 
 
-createCardsFromJson(path)
+def seedCards()
+    path = Rails.root.join('app', 'assets','cards.json')
+    createCardsFromJson(path)
+end 
+
+seedCards()
