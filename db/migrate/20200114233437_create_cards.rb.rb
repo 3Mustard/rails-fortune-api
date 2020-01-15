@@ -8,7 +8,6 @@ class CreateCards < ActiveRecord::Migration[6.0]
       t.text :fortune_telling, array: true, default: []
       t.text :keywords, array: true, default: []
       t.text :meanings
-      t.belongs_to :fortune 
       t.timestamps
     end
   end
