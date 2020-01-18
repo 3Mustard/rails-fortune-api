@@ -1,4 +1,4 @@
 class Fortune < ApplicationRecord
     has_many :notes
-    has_many_ :cards 
+    has_many :cards 
 end
