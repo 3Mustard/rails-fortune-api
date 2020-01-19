@@ -23,6 +23,3 @@ class FortunesController < ApplicationController
         render json: fortune 
     end 
 end
-pokemon = Pokemon.find_by(id: params[:id])
-        pokemon.destroy
-        render json: pokemon
