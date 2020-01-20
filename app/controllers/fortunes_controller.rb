@@ -8,7 +8,7 @@ class FortunesController < ApplicationController
     
     def create
         fortune = Fortune.new()
-        params["card_ids"].each do |id| #move to initialize 
+        params["card_ids"].each do |id|
             fortune.card_id.push(id)
         end
         fortune.save()  
