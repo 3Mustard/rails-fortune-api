@@ -1,24 +1,12 @@
-# README
+## Fortune-api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Contains rails backend CRUD for accessing a deck of tarot cards in Json, and the ability to show/create/destroy fortune objects containing cards.
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+A front end example can be found here: https://github.com/3Mustard/rails-fortune-api-client
+Run rails s to start a server from the backend root and open the index.html in the frontend file.
 
-* System dependencies
+## Contributing
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please contact 3Mustard@github
