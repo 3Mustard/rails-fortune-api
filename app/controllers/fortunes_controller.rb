@@ -5,6 +5,12 @@ class FortunesController < ApplicationController
 
         render json: fortunes 
     end 
+
+    def show
+        fortune = Fortune.find_by(id: params[:id])
+
+        render json: fortune
+    end 
     
     def create
         fortune = Fortune.new()
